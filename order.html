@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/order.css">
+    <script src="./script/script.js"></script>
+  
+    <title>Order</title>
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="project.html">MY PROJECTS</a></li>
+        <li><a href="product.html">PRODUCTS</a></li>
+        <li><a href="order.html">ORDER</a></li>
+        <li><a href="game.html">GAME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="https://twitter.com/elifdaglaroglu"><img src="images/tw.png"></a></li>
+    </ul>
+</nav>
+
+    <form action="">
+        <h1>Order Form</h1>
+        <table>
+            <tr>
+                <td>Select an art type</td>
+                <td>
+                  <select name="artType" id="artType">
+                      <option value="line">Lines</option>
+                      <option value="botanic">Botanical Art</option>
+                      <option value="motto">Motto</option>
+                  </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Frame</td>
+                <td><input type="checkbox" name="frame" id="frame"></td>
+            </tr>
+            <tr>
+                <td>Gift Pack</td>
+                <td><input type="checkbox" name="gift" id="gift"></td>
+            </tr>
+          <tr>
+            <td colspan="2" id="tdWithButton">
+              <input type="button" value="Calculate" id="btnCalculate" name="btCalculate" onclick="calculate()">
+            </td>      
+          </tr>
+          <tr>
+            <td colspan="2"><textarea name="result" id="result" cols="30" rows="10"></textarea></td>        
+          </tr>
+        </table>
+      </form>
+      <div id="res">
+    
+      </div>
+
+    
+</body>
+</html>

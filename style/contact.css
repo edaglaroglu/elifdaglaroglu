@@ -1,0 +1,40 @@
+body {font-family: 'Radio Canada', sans-serif;}
+
+body {background-color: whitesmoke ;}
+
+nav { background: #000; font-size: 1.2em; color: #FFF;}
+nav ul { list-style: none; width: 1200px; margin:0 auto; padding:0; display: flex;}
+nav ul li { line-height: 55px; width: 400px;}
+nav ul li a{ text-decoration: none; color: white; font-weight: bold;}
+nav ul li img { vertical-align: top;}
+nav ul li a:hover { color:yellow;}  
+
+#container { display: flex;  margin: 10px auto; width:900px;
+; justify-content:space-around}
+
+img {  max-width: 500px; height: auto; }
+
+#left {margin: 10px 10px;}
+
+#right {margin: 10px 10px;}
+
+#left input, textarea {border-radius: 30px; padding: 20px; background-color: oldlace}
+
+button {border-radius: 20px; padding: 10px; background-color: oldlace ; cursor: pointer;}
+
+td { padding: 15px;}
+
+tr:last-of-type{ text-align: center;}
+
+.mail {width:65px; 
+  height: 65px; 
+  position: relative;
+  display: flex;
+}
+
+.waves-effect {
+  
+     background-color: rgba(121, 85, 72, 0.65);
+}
+
+  

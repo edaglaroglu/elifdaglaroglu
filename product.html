@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/product.css">
+    <script src="./script/script.js"></script>
+    <title>Products</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="project.html">MY PROJECTS</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="order.html">ORDER</a></li>
+            <li><a href="game.html">GAME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="https://twitter.com/elifdaglaroglu"><img src="images/tw.png"></a></li>
+        </ul>
+    </nav>
+
+    <select id="artType" onchange="filter()">
+        <option value="all">All</option>
+        <option value="botanical">Botanical Art</option>
+        <option value="line">Lines</option>
+        <option value="motto">Motto</option>       
+    </select>
+
+    <table id="output">
+        <script>
+            document.write(display('all'));
+          </script>
+    </table>
+
+ 
+</body>
+</html>

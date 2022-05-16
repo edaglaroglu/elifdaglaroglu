@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>  
+    <script src="./script/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/project.css">
+    <title>My Projects</title>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="project.html">MY PROJECTS</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="order.html">ORDER</a></li>
+            <li><a href="game.html">GAME</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="https://twitter.com/elifdaglaroglu"><img src="images/tw.png"></a></li>
+        </ul>
+    </nav>
+
+    <div id="accordionGroup">
+        <h1>Floating Leaves</h1>
+        <div>
+            <p> <span>C, OpenGL, Glut library</span> </p>
+            <p>Shifting users' focus between to details: where the leaves point and how they move. This
+                challenges users' ability to switch between 2 cognitive processes: one interprets shape, the other movement.</p>
+            <img src="./images/Floating_Leaves.png" alt="">
+        </div>
+        <h1>Light Simulations</h1>
+        <div>
+            <p> <span>C, OpenGL, Glut library</span> </p>
+            <p>Simulating light reflections on a surface using math properties in Glut Library (C).</p>
+        </div>
+        <h1>Baloon in Cappadocia</h1>
+        <div>
+            <p> <span>C, OpenGL, Glut library</span> </p>
+            <p>Implementing a “hitting the targets” game using trigonometry.</p>
+            <img src="./images/baloon.png" alt="">
+        </div>
+        <h1>Online Banking Project</h1>
+        <div>
+            <p> <span>Java, NetBeans 12.5 GUI</span> </p>
+            <p>The program checks user id and password and then allows users to transfer money, open
+                deposit accounts.</p>
+        </div>
+        <h1>Tiles Game</h1>
+        <div>
+            <p> <span>JavaScript(ES6), JQuery, HTML5 CSS3</span> </p>
+            <p>Click on all the tiles before the time runs out! Heavy use of JQuery Library.</p>
+        </div>
+    </div>
+    <script>
+        $("#accordionGroup").accordion();
+    </script>
+    
+</body>
+</html>
+
+
